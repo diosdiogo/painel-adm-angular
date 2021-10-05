@@ -7,7 +7,12 @@ import { HeaderComponent } from './components/tamplate/header/header.component';
 import { FooterComponent } from './components/tamplate/footer/footer.component';
 import { NavComponent }  from './components/tamplate/nav/nav.component';
 
-import { ButtonModule, CoreModule, IconsModule, ToolbarModule, SidebarModule } from 'truly-ui'; //Import Modules
+import { CoreModule, 
+          ButtonModule, 
+          IconsModule, 
+          ToolbarModule, 
+          SidebarModule,
+          MenuModule } from 'truly-ui'; //Import Modules
 
 @NgModule({
   declarations: [
@@ -23,7 +28,8 @@ import { ButtonModule, CoreModule, IconsModule, ToolbarModule, SidebarModule } f
     ButtonModule,
     IconsModule,
     ToolbarModule,
-    SidebarModule
+    SidebarModule,
+    MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
